@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  const apiKey = "I6O5OVTBIZ5Q8MSL"
+
   const [data, setData] = useState([])
 
   useEffect(() => {

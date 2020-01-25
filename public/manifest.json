@@ -1,6 +1,6 @@
 {
-  "short_name": "Art Videos",
-  "name": "Art Videos for Fun and Learning",
+  "short_name": "Stock Market",
+  "name": "Results from Alpha Vantage",
   "icons": [
     {
       "src": "favicon.ico",
