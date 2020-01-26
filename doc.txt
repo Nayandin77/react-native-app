@@ -1,0 +1,6 @@
+## Color Scheme 1
+#65c595 - Ocean Green
+#abd1b5 - Turquoise Green
+#d8f6de - Nyanza
+#111111 - Licorice
+#000000 - Registration Black

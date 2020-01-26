@@ -1,7 +1,13 @@
 .App {
-  text-align: center;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #d8f6de;
+  color: #65c595;
   font-size: calc(6px + 2vmin);
+  text-align: center;
 }
+
+.header {
+  padding: 4vh;
+  border: solid;
+}
+
 
