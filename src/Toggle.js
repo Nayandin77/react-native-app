@@ -1,35 +1,21 @@
 import React from 'react';
 import './Toggle.css';
 
-
 class Toggle extends React.Component {
     constructor(props) {
         super(props)
-        this.state = {
-            checked: true,
-            theme: 'Light/Dark'
-        }
+        this.state = { checked: true }
     }
 
     render() {
-        let className = 'light';
-        if (this.state.checked) {
-            className = 'not-light'
-        }
         return (
             <div className="toggle">
-                <span className={className}>TEST </span>
-                <label className="switch">
-                    <input 
-                        type="checkbox"
-                        name="css-selector"
-                        value={this.state.checked}
-                        onChange={() => this.setState({ checked: !this.state.checked }) + console.log(this.state.checked)}
-                    />
-                    <span className="slider round"></span>
-                    <p className="toggle-text">{this.state.theme}</p>
-                </label>
-            </div>
+                <button 
+                    className={this.state.checked && 'checked'}
+                    onClick={ () => this.setState({checked: !this.state.checked})}>
+                Test
+                </button>
+              </div>
         )
     }
 }
